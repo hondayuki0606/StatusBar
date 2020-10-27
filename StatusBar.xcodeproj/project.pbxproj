@@ -13,6 +13,7 @@
 		AFFA4FED254848D1002DE8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4FEC254848D1002DE8F2 /* main.m */; };
 		AFFA4FF8254848D1002DE8F2 /* StatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4FF7254848D1002DE8F2 /* StatusBarTests.m */; };
 		AFFA5003254848D1002DE8F2 /* StatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA5002254848D1002DE8F2 /* StatusBarUITests.m */; };
+		AFFA501825484C19002DE8F2 /* NextWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA501725484C19002DE8F2 /* NextWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AFFA4FFE254848D1002DE8F2 /* StatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA5002254848D1002DE8F2 /* StatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarUITests.m; sourceTree = "<group>"; };
 		AFFA5004254848D1002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA501725484C19002DE8F2 /* NextWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +99,10 @@
 		AFFA4FE2254848D0002DE8F2 /* StatusBar */ = {
 			isa = PBXGroup;
 			children = (
+				AFFA501025484A4F002DE8F2 /* src */,
 				AFFA4FE3254848D0002DE8F2 /* AppDelegate.h */,
 				AFFA4FE4254848D0002DE8F2 /* AppDelegate.m */,
 				AFFA4FE6254848D1002DE8F2 /* Assets.xcassets */,
-				AFFA4FE8254848D1002DE8F2 /* MainMenu.xib */,
 				AFFA4FEB254848D1002DE8F2 /* Info.plist */,
 				AFFA4FEC254848D1002DE8F2 /* main.m */,
 				AFFA4FEE254848D1002DE8F2 /* StatusBar.entitlements */,
@@ -124,6 +126,23 @@
 				AFFA5004254848D1002DE8F2 /* Info.plist */,
 			);
 			path = StatusBarUITests;
+			sourceTree = "<group>";
+		};
+		AFFA501025484A4F002DE8F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA501125484A60002DE8F2 /* View */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AFFA501125484A60002DE8F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA4FE8254848D1002DE8F2 /* MainMenu.xib */,
+				AFFA501725484C19002DE8F2 /* NextWindow.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +250,7 @@
 			files = (
 				AFFA4FE7254848D1002DE8F2 /* Assets.xcassets in Resources */,
 				AFFA4FEA254848D1002DE8F2 /* MainMenu.xib in Resources */,
+				AFFA501825484C19002DE8F2 /* NextWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
