@@ -55,5 +55,6 @@
             </view>
             <point key="canvasLocation" x="139" y="147"/>
         </window>
+        <customObject id="gYQ-uv-sFk" customClass="AppDelegate"/>
     </objects>
 </document>

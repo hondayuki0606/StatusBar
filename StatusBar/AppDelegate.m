@@ -34,7 +34,7 @@
     NSStatusBar *systemStatusBar = [NSStatusBar systemStatusBar];
     _statusItem = [systemStatusBar statusItemWithLength:NSVariableStatusItemLength];
     [_statusItem setHighlightMode:YES];
-    //[_statusItem setTitle:@"StatusBarApp"];
+    [_statusItem setTitle:@"StatusBarApp"];
     [_statusItem setImage:[NSImage imageNamed:@"StatusBarIconTemplate"]];
     [_statusItem setMenu:self.statusBar];
 }
