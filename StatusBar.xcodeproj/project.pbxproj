@@ -13,7 +13,11 @@
 		AFFA4FED254848D1002DE8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4FEC254848D1002DE8F2 /* main.m */; };
 		AFFA4FF8254848D1002DE8F2 /* StatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4FF7254848D1002DE8F2 /* StatusBarTests.m */; };
 		AFFA5003254848D1002DE8F2 /* StatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA5002254848D1002DE8F2 /* StatusBarUITests.m */; };
-		AFFA501825484C19002DE8F2 /* NextWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA501725484C19002DE8F2 /* NextWindow.xib */; };
+		AFFA501825484C19002DE8F2 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA501725484C19002DE8F2 /* NextViewController.xib */; };
+		AFFA505B2549BE7A002DE8F2 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA505A2549BE7A002DE8F2 /* NextViewController.m */; };
+		AFFA50962549C9FC002DE8F2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFA50952549C9FC002DE8F2 /* Storyboard.storyboard */; };
+		AFFA50982549CA62002DE8F2 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA50972549CA62002DE8F2 /* View.xib */; };
+		AFFA509A2549CA8F002DE8F2 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA50992549CA8F002DE8F2 /* Window.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,12 @@
 		AFFA4FFE254848D1002DE8F2 /* StatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA5002254848D1002DE8F2 /* StatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarUITests.m; sourceTree = "<group>"; };
 		AFFA5004254848D1002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFFA501725484C19002DE8F2 /* NextWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextWindow.xib; sourceTree = "<group>"; };
+		AFFA501725484C19002DE8F2 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		AFFA505A2549BE7A002DE8F2 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		AFFA505C2549BEAD002DE8F2 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AFFA50952549C9FC002DE8F2 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AFFA50972549CA62002DE8F2 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		AFFA50992549CA8F002DE8F2 /* Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +149,12 @@
 			isa = PBXGroup;
 			children = (
 				AFFA4FE8254848D1002DE8F2 /* MainMenu.xib */,
-				AFFA501725484C19002DE8F2 /* NextWindow.xib */,
+				AFFA505C2549BEAD002DE8F2 /* NextViewController.h */,
+				AFFA505A2549BE7A002DE8F2 /* NextViewController.m */,
+				AFFA501725484C19002DE8F2 /* NextViewController.xib */,
+				AFFA50952549C9FC002DE8F2 /* Storyboard.storyboard */,
+				AFFA50972549CA62002DE8F2 /* View.xib */,
+				AFFA50992549CA8F002DE8F2 /* Window.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -249,8 +263,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFA4FE7254848D1002DE8F2 /* Assets.xcassets in Resources */,
+				AFFA50982549CA62002DE8F2 /* View.xib in Resources */,
+				AFFA50962549C9FC002DE8F2 /* Storyboard.storyboard in Resources */,
 				AFFA4FEA254848D1002DE8F2 /* MainMenu.xib in Resources */,
-				AFFA501825484C19002DE8F2 /* NextWindow.xib in Resources */,
+				AFFA501825484C19002DE8F2 /* NextViewController.xib in Resources */,
+				AFFA509A2549CA8F002DE8F2 /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFA4FED254848D1002DE8F2 /* main.m in Sources */,
+				AFFA505B2549BE7A002DE8F2 /* NextViewController.m in Sources */,
 				AFFA4FE5254848D0002DE8F2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
