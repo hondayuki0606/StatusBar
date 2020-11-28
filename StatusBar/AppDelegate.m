@@ -23,12 +23,7 @@
     // 次画面遷移処理を記載する
     NSViewController *mNextVC;
     mNextVC = [[NSViewController alloc]initWithNibName:@"NextViewController" bundle:nil];
-    self.
-     present(destinationViewController2, animated: true) /
-    [self presentViewController:mNextVC animated:YES completion:nil];
-    
-    [self presentViewController: mNextVC animated:YES completion: nil];
-    [self presentViewController:mNextVC animated:YES completion:nil];
+
     
 }
 
